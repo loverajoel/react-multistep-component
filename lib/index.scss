@@ -1,0 +1,43 @@
+.steps-component {
+  margin: 50px auto 0;
+  max-width: 610px;
+
+	.steps-navigator-by-steps {
+		width: 100%;
+    float: left;
+    clear: both;
+
+		ul {
+			width: 100%;
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+
+			li {
+				list-style: none;
+		    display: inline-block;
+		    margin: 0 5px;
+        background: #E2E2E2;
+        text-indent: -9000px;
+        border-radius: 14px;
+        width: 13px;
+        height: 13px;
+			}
+
+      li.active-step {
+        background: #585858;
+      }
+		}
+	}
+
+  .steps-content {
+
+    .step-item {
+      display: none;
+    }
+
+    .step-item.active-step {
+      display: block;
+    }
+  }
+}

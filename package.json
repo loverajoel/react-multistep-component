@@ -1,0 +1,8 @@
+{
+  "name": "react-wizard",
+  "version": "0.1.0",
+  "description": "A step library",
+  "main": "app/index",
+  "author": "@loverajoel",
+  "license": "ISC"
+}
