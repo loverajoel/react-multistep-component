@@ -1,6 +1,5 @@
 .steps-component {
-  margin: 50px auto 0;
-  max-width: 610px;
+  width: 700px;
 
 	.steps-navigator-by-steps {
 		width: 100%;
@@ -36,7 +35,7 @@
       display: none;
     }
 
-    .step-item.active-step {
+    .step-item.active-true {
       display: block;
     }
   }
