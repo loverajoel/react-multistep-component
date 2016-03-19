@@ -1,26 +1,26 @@
-## React Wizard Steps
+## React Multistep Component
 
-`react-wizard` is a step component for React :love:
+`react-multistep-component` is a step component for React :love:
 
 ### Installation
 
 Using npm
 ```
-npm install react-wizard
+npm install react-multistep-component
 ```
 
 ### Demo
 
 ```js
 
-import { Steps, Step } from 'react-wizard';
+import { Steps, Step } from 'react-multistep-component';
 {
   /*
    * <Steps> bla bla
    *
    */
 }
-<Steps currentStep=1>
+<Steps currentStep={1}>
   {
     /*
      * <Step> bla bla
