@@ -12,7 +12,9 @@ var config = {
   ],
   output: {
     path: BUILD_DIR,
-    filename: '/bundle.js'
+    filename: '/bundle.js',
+    libraryTarget: "var",
+    library: ["reactMultistepComponent"]
   },
   module: {
     loaders: [
