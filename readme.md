@@ -9,15 +9,16 @@ Using npm
 npm install react-multistep-component
 ```
 
-### Live Demo
+### Examples
 
-[Simple Demo [jsbin]](https://jsbin.com/luyokuf/edit?output)
+- [Multistep Form](https://jsbin.com/luyokuf/edit?output) - (jsBin)
 
-### Example
+### The Gist
 
 ```js
 
 import { Steps, Step } from 'react-multistep-component';
+
 {
   /*
    * <Steps/> it's the container and wrapper for your steps.
