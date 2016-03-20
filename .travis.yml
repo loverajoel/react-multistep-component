@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "5"
+  - '5'
 script:
   - npm run build
   - npm run test
@@ -9,6 +9,14 @@ branches:
     - master
 cache:
   directories:
-  - node_modules
+    - node_modules
 after_success:
-  - 'cat ./coverage/lcov.info | ./node_modules/.bin/coveralls'
+  - cat ./coverage/lcov.info | ./node_modules/.bin/coveralls
+deploy:
+  provider: npm
+  email: joelalovera@gmail.com
+  api_key:
+    secure: S8Ez5+AtZuCPtG3eqVMytMYgONadzQiRIq94bp/961ee/fnYeXo1a+OIUI6Pf2z4/iVAWhCAR7+dTXJd1FvcCfJg00xOtELUWrKk/xXC4hRerzTVjCQHex0xaaP+Afejm9rYYVUxqQZPUQtOUFW0qL311/EUUNfxN9rNBw7BByk2G+slk/2T1JxxH4H1cwVup4SW+1gvQtb4D7DZ7t6DMN5Flayys4jL6Xv3hsVGK4D5CwEJ0u7ZkbQYmv+GkdM956dhpZUFC5Osnj929iR+pXzvRV1UmWQUZyTx8Tpu4QyP9NrT+xzjdrgP8gjS68y+AE+NhW8jDCokXnS2S2lRp759UziUVG4hWUZfE+96zG/2Sbcnx5xLyFobWWPGSe0ol+AMyP4c/D6yjE0uHB+lqN6n71UHWSDffv1yVNpD7uxn7wMcryg1052k/FwLRsamAtMXnohFecz/+lHFr8mAMGhfeZdx/iKcJouD6sJIFRUVEpPPyK4A0UnmMmlP5sJt7EQbn0kcPGyqjwbSs14UnUzgHKbQ0Q0/gsJPKHY4TOdiJKRqefNsfJUyCljJenKq5DHCEevP1ErAix2SarT2ZE9dt4fcaovP7tIf2ogSya7itboa58+JjvITZknJd4uEHVRXcWcg+HTrD2h7JVYlc1vsbeFx4oiNamHZFXBwAtg=
+  on:
+    tags: true
+    repo: loverajoel/react-multistep-component
