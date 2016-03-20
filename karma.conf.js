@@ -2,9 +2,9 @@ var webpack = require('webpack');
 
 module.exports = function (config) {
   config.set({
-    browsers: [ 'Chrome' ], //run in Chrome
+    browsers: [ 'PhantomJS' ], //run in Chrome
     autoWatch:  true,
-    singleRun: false,
+    singleRun: true,
     frameworks: [ 'mocha' ], //use the mocha test framework
     files: [
       'tests.webpack.js' //just load this file
