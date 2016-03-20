@@ -7,8 +7,7 @@ var APP_DIR = path.resolve(__dirname, './')
 
 var config = {
   entry: [
-    APP_DIR + '/examples/example.js',
-    APP_DIR + '/lib/styles.scss',
+    APP_DIR + '/examples/example.js'
   ],
   output: {
     path: BUILD_DIR,

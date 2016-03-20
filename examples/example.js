@@ -14,7 +14,7 @@ class Example extends React.Component {
           Step2
         </Step>
       </Steps>
-      );
+    );
   }
 }
 
