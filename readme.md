@@ -2,6 +2,9 @@
 
 `react-multistep-component` is a multistep/wizard component for React
 
+[![build status](https://img.shields.io/travis/loverajoel/react-multistep-component/master.svg?style=flat-square)](https://travis-ci.org/loverajoel/react-multistep-component)
+[![npm version](https://img.shields.io/npm/v/react-multistep-component.svg?style=flat-square)](https://www.npmjs.com/package/react-multistep-component)
+
 ### Installation
 
 Using npm
