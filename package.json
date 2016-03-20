@@ -1,6 +1,6 @@
 {
   "name": "react-multistep-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A multi step component",
   "main": "lib/index",
   "author": "@loverajoel",
@@ -9,7 +9,7 @@
     "demos": "webpack-dev-server --progress --colors -d --watch",
     "build": "./node_modules/.bin/webpack --config ./webpack.config.production.js --progress --colors",
     "test": "karma start",
-    "pre-publish": "npm run build"
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "react": "^0.14.7",
