@@ -5,6 +5,8 @@
 [![build status](https://img.shields.io/travis/loverajoel/react-multistep-component/master.svg?style=flat-square)](https://travis-ci.org/loverajoel/react-multistep-component)
 [![npm version](https://img.shields.io/npm/v/react-multistep-component.svg?style=flat-square)](https://www.npmjs.com/package/react-multistep-component)
 [![Coverage Status](https://coveralls.io/repos/github/loverajoel/react-multistep-component/badge.svg?branch=master)](https://coveralls.io/github/loverajoel/react-multistep-component?branch=master)
+[![Dependencies status](https://david-dm.org/loverajoel/react-multistep-component.svg)](https://david-dm.org/loverajoel/react-multistep-component)
+[![Dev dependencies status](https://david-dm.org/loverajoel/react-multistep-component/dev-status.svg)](https://david-dm.org/loverajoel/react-multistep-component#info=devDependencies)
 
 ### Installation
 
