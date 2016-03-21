@@ -17,7 +17,7 @@ npm install react-multistep-component
 
 ### Examples
 
-- [Multistep Form](https://jsbin.com/luyokuf/edit?output) - (jsBin)
+- [Multistep Form](https://output.jsbin.com/luyokuf) - (jsBin)
 
 ### Usage
 
