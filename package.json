@@ -9,6 +9,7 @@
     "demos": "webpack-dev-server --progress --colors -d --watch",
     "build": "./node_modules/.bin/webpack --config ./webpack.config.production.js --progress --colors",
     "test": "karma start",
+    "test:dev": "npm run test -- --singleRun=false",
     "prepublish": "npm run build"
   },
   "dependencies": {

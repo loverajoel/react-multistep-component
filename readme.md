@@ -19,7 +19,7 @@ npm install react-multistep-component
 
 - [Multistep Form](https://jsbin.com/luyokuf/edit?output) - (jsBin)
 
-### The Gist
+### Usage
 
 ```js
 
@@ -61,6 +61,11 @@ import { Steps, Step } from 'react-multistep-component';
 </Steps>
 
 ```
+
+### Styles
+
+By default the component doesn't contain styles, but there are a couple of themes that you can use
+in the [examples](https://github.com/loverajoel/react-multistep-component#examples)
 
 ### Licence
 MIT
