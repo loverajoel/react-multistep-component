@@ -2,6 +2,7 @@ node_modules
 *.sublime-*
 npm-debug.log
 /lib
-/examples
 ./*.js
 ./*.json
+coverage
+.travis.yml

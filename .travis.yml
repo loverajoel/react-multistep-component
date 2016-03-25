@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '5'
+script:
+  - npm run build
+  - npm run test
+branches:
+  only:
+    - master
+cache:
+  directories:
+    - node_modules
+after_success:
+  - cat ./coverage/lcov.info | ./node_modules/.bin/coveralls
