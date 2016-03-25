@@ -38,8 +38,8 @@ import { Steps, Step } from 'react-multistep-component';
    * `prevButton`/`nextButton` is a wrapper for the buttons, `html`, `jsx` or `string` can be included.
    * ex: `prevButton={<span><img src="..."/>Step 1</span>}`. *optional
    *
-   * `mountOnlySiblings` `bool` option, it it's set `true`, only the sibligs of the current active
-   * step will be rendered. This is a improvment for big implementations.
+   * `mountOnlySiblings` if it's set `true`, only the siblings of the currently active  step will be
+   * render. This is an improvement for big implementations.
    *
    */
 }
