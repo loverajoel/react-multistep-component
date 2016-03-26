@@ -71,5 +71,11 @@ import { Steps, Step } from 'react-multistep-component';
 By default the component doesn't contain styles, but there are a couple of themes that you can use
 in the [examples](https://github.com/loverajoel/react-multistep-component#examples)
 
+## Todo
+
+- Add `react-router` support
+- Add `redux` support
+- Add more examples
+
 ### Licence
 MIT
