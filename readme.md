@@ -15,10 +15,11 @@ Using npm
 npm install react-multistep-component
 ```
 
-### Examples
+### Examples(jsBin)
 
-- [Multistep Form](https://output.jsbin.com/luyokuf) - (jsBin)
-- [Multistep Form with validation](https://output.jsbin.com/yijopa) - (jsBin)
+- [Multistep Form](https://output.jsbin.com/luyokuf)
+- [Multistep Form with validation](https://output.jsbin.com/yijopa)
+- [Multistep with `react-router`](https://output.jsbin.com/zolesen/#/2)
 
 ### Usage
 
@@ -76,8 +77,7 @@ in the [examples](https://github.com/loverajoel/react-multistep-component#exampl
 
 ## Todo
 
-- Add `react-router` support
-- Add `redux` support
+- Add `redux` example
 - Add key events
 - Add more examples
 
