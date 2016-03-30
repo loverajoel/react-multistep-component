@@ -75,6 +75,7 @@ in the [examples](https://github.com/loverajoel/react-multistep-component#exampl
 
 - Add `react-router` support
 - Add `redux` support
+- Add key events
 - Add more examples
 
 ### Licence
