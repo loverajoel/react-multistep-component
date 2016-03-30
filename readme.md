@@ -36,6 +36,9 @@ import { Steps, Step } from 'react-multistep-component';
    * `stepShouldChange` is called whenever a step is changed. This method can be used for
    * validations. By default will return `true`. *optional
    *
+   * `onStepChange` is called after step change (include the first time when render) and have
+   * the current step how attribute
+   *
    * `prevButton`/`nextButton` is a wrapper for the buttons, `html`, `jsx` or `string` can be included.
    * ex: `prevButton={<span><img src="..."/>Step 1</span>}`. *optional
    *
