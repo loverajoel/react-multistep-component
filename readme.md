@@ -18,6 +18,7 @@ npm install react-multistep-component
 ### Examples
 
 - [Multistep Form](https://output.jsbin.com/luyokuf) - (jsBin)
+- [Multistep Form with validation](https://output.jsbin.com/yijopa) - (jsBin)
 
 ### Usage
 
@@ -34,6 +35,9 @@ import { Steps, Step } from 'react-multistep-component';
    *
    * `stepShouldChange` is called whenever a step is changed. This method can be used for
    * validations. By default will return `true`. *optional
+   *
+   * `onStepChange` is called after step change (include the first time when render) and have
+   * the current step how attribute
    *
    * `prevButton`/`nextButton` is a wrapper for the buttons, `html`, `jsx` or `string` can be included.
    * ex: `prevButton={<span><img src="..."/>Step 1</span>}`. *optional
@@ -69,6 +73,13 @@ import { Steps, Step } from 'react-multistep-component';
 
 By default the component doesn't contain styles, but there are a couple of themes that you can use
 in the [examples](https://github.com/loverajoel/react-multistep-component#examples)
+
+## Todo
+
+- Add `react-router` support
+- Add `redux` support
+- Add key events
+- Add more examples
 
 ### Licence
 MIT
