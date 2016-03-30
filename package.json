@@ -1,8 +1,8 @@
 {
   "name": "react-multistep-component",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A multistep react component",
-  "main": "lib/index",
+  "main": "dist/dist.js",
   "author": "@loverajoel",
   "license": "ISC",
   "scripts": {

@@ -11,29 +11,30 @@ var config = {
   ],
   output: {
     path: BUILD_DIR,
-    filename: '/bundle.js',
-    libraryTarget: "var",
-    library: ["reactMultistepComponent"]
+    filename: '/dist.js',
+    library: 'reactMultistepComponent',
+    libraryTarget: 'umd'
   },
+  externals: [
+    {
+      react: {
+        root: 'React',
+        commonjs2: 'react',
+        commonjs: 'react',
+        amd: 'react'
+      }
+    }
+  ],
   module: {
     loaders: [
       {
         test: /\.js?/,
         include: APP_DIR,
         loader : 'babel'
-      },
-      {
-        test: /\.scss/,
-        exclude: /node_modules/,
-        loader: ExtractTextPlugin.extract(
-          'style',
-          'css!sass'
-        )
-      },
+      }
     ]
   },
   plugins: [
-    new ExtractTextPlugin( "bundle.css" ),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify('production')
