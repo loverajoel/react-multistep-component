@@ -60,12 +60,12 @@ import { Steps, Step } from 'react-multistep-component';
   <Step>
     Example Step 1
     <span>Hello step 1</span>
-  <Step/>
+  </Step>
   <Step>
     <div>
       Javascript Rocks!
     </div>
-  <Step/>
+  </Step>
 </Steps>
 
 ```
